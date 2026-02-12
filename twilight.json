@@ -1,0 +1,216 @@
+{
+    "theme_name": {
+        "ar": "Najd",
+        "en": "Najd"
+    },
+    "repository": "",
+    "author_email": "",
+    "features": [
+        "mega-menu",
+        "fonts",
+        "color",
+        "breadcrumb",
+        "component-featured-products",
+        "component-fixed-banner",
+        "component-fixed-products",
+        "component-products-slider",
+        "component-photos-slider",
+        "component-parallax-background",
+        "component-testimonials",
+        "component-square-photos",
+        "component-store-features",
+        "component-youtube",
+        "filters"
+    ],
+    "settings": [
+        {
+            "type": "boolean",
+            "label": "Dark Mode",
+            "id": "dark_mode",
+            "format": "switch",
+            "selected": true
+        },
+        {
+            "type": "string",
+            "id": "placeholder",
+            "format": "hidden",
+            "value": "images/img_placeholder.png"
+        },
+        {
+            "type": "string",
+            "label": "Announcement Text",
+            "id": "announcement_text",
+            "format": "text",
+            "value": ""
+        },
+        {
+            "type": "string",
+            "label": "Announcement URL",
+            "id": "announcement_url",
+            "format": "text",
+            "value": "/offers"
+        },
+        {
+            "type": "boolean",
+            "label": "Announcement Bar",
+            "id": "announcement_enabled",
+            "format": "switch",
+            "selected": true
+        },
+        {
+            "type": "string",
+            "label": "Free Shipping Threshold",
+            "id": "free_shipping_threshold",
+            "format": "text",
+            "value": "200"
+        },
+        {
+            "type": "boolean",
+            "label": "Countdown Timer",
+            "id": "countdown_enabled",
+            "format": "switch",
+            "selected": true
+        },
+        {
+            "type": "string",
+            "label": "Countdown End Date",
+            "id": "countdown_end_date",
+            "format": "text",
+            "value": ""
+        },
+        {
+            "type": "string",
+            "label": "Countdown Title",
+            "id": "countdown_title",
+            "format": "text",
+            "value": ""
+        },
+        {
+            "type": "boolean",
+            "label": "Social Proof",
+            "id": "social_proof_enabled",
+            "format": "switch",
+            "selected": true
+        },
+        {
+            "type": "boolean",
+            "label": "Popup",
+            "id": "popup_enabled",
+            "format": "switch",
+            "selected": true
+        },
+        {
+            "type": "string",
+            "label": "Popup Coupon",
+            "id": "popup_coupon",
+            "format": "text",
+            "value": "NAJD15"
+        },
+        {
+            "type": "string",
+            "label": "Popup Discount",
+            "id": "popup_discount",
+            "format": "text",
+            "value": "15%"
+        },
+        {
+            "type": "string",
+            "label": "Popup Delay Seconds",
+            "id": "popup_delay",
+            "format": "text",
+            "value": "5"
+        },
+        {
+            "type": "string",
+            "label": "Meta Pixel ID",
+            "id": "meta_pixel_id",
+            "format": "text",
+            "value": ""
+        },
+        {
+            "type": "string",
+            "label": "Google Tag ID",
+            "id": "google_tag_id",
+            "format": "text",
+            "value": ""
+        },
+        {
+            "type": "string",
+            "label": "Snapchat Pixel ID",
+            "id": "snap_pixel_id",
+            "format": "text",
+            "value": ""
+        },
+        {
+            "type": "string",
+            "label": "TikTok Pixel ID",
+            "id": "tiktok_pixel_id",
+            "format": "text",
+            "value": ""
+        },
+        {
+            "type": "string",
+            "label": "WhatsApp Number",
+            "id": "whatsapp_number",
+            "format": "text",
+            "value": ""
+        },
+        {
+            "type": "string",
+            "label": "Footer About",
+            "id": "footer_about",
+            "format": "text",
+            "value": ""
+        }
+    ],
+    "components": [
+        {
+            "name": "Bento Categories",
+            "icon": "sicon-grid",
+            "path": "home.bento-categories",
+            "settings": []
+        },
+        {
+            "name": "Countdown Timer",
+            "icon": "sicon-clock",
+            "path": "home.countdown-timer",
+            "settings": []
+        },
+        {
+            "name": "Shipping Progress",
+            "icon": "sicon-shipping-fast",
+            "path": "home.shipping-progress",
+            "settings": []
+        },
+        {
+            "name": "Quick Links",
+            "icon": "sicon-link",
+            "path": "home.quick-links",
+            "settings": []
+        },
+        {
+            "name": "Store Stats",
+            "icon": "sicon-chart-bar",
+            "path": "home.store-stats",
+            "settings": []
+        },
+        {
+            "name": "FAQ",
+            "icon": "sicon-question-circle",
+            "path": "home.faq-section",
+            "settings": []
+        },
+        {
+            "name": "Promo Video",
+            "icon": "sicon-play-circle",
+            "path": "home.promo-video",
+            "settings": []
+        },
+        {
+            "name": "Newsletter",
+            "icon": "sicon-envelope",
+            "path": "home.newsletter",
+            "settings": []
+        }
+    ]
+}
