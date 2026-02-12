@@ -1,0 +1,299 @@
+{
+  "version": "1.0.0",
+  "theme_name": "Najd",
+  "repo_url": "",
+  "support_url": "",
+  "features": [
+    "mega-menu",
+    "fonts",
+    "color",
+    "breadcrumb",
+    "component-featured-products",
+    "component-fixed-banner",
+    "component-fixed-products",
+    "component-products-slider",
+    "component-photos-slider",
+    "component-parallax-background",
+    "component-testimonials",
+    "component-square-photos",
+    "component-store-features",
+    "component-youtube",
+    "filters"
+  ],
+  "settings": [
+    {
+      "type": "boolean",
+      "label": "الوضع الداكن",
+      "id": "dark_mode",
+      "format": "switch",
+      "selected": true
+    },
+    {
+      "type": "boolean",
+      "label": "تفعيل شريط الاعلان",
+      "id": "announcement_enabled",
+      "format": "switch",
+      "selected": true
+    },
+    {
+      "type": "string",
+      "label": "نص الاعلان",
+      "id": "announcement_text",
+      "format": "text",
+      "value": "خصم خاص لفترة محدودة"
+    },
+    {
+      "type": "string",
+      "label": "رابط الاعلان",
+      "id": "announcement_url",
+      "format": "text",
+      "value": "/offers"
+    },
+    {
+      "type": "string",
+      "label": "حد الشحن المجاني",
+      "id": "free_shipping_threshold",
+      "format": "text",
+      "value": "200"
+    },
+    {
+      "type": "boolean",
+      "label": "تفعيل العداد التنازلي",
+      "id": "countdown_enabled",
+      "format": "switch",
+      "selected": true
+    },
+    {
+      "type": "string",
+      "label": "تاريخ انتهاء العداد",
+      "id": "countdown_end_date",
+      "format": "text",
+      "value": ""
+    },
+    {
+      "type": "string",
+      "label": "عنوان العداد",
+      "id": "countdown_title",
+      "format": "text",
+      "value": "خصم 50% على كل المنتجات"
+    },
+    {
+      "type": "boolean",
+      "label": "اشعارات الشراء اللحظية",
+      "id": "social_proof_enabled",
+      "format": "switch",
+      "selected": true
+    },
+    {
+      "type": "boolean",
+      "label": "تفعيل Popup الخصم",
+      "id": "popup_enabled",
+      "format": "switch",
+      "selected": true
+    },
+    {
+      "type": "string",
+      "label": "كوبون Popup",
+      "id": "popup_coupon",
+      "format": "text",
+      "value": "NAJD15"
+    },
+    {
+      "type": "string",
+      "label": "نسبة خصم Popup",
+      "id": "popup_discount",
+      "format": "text",
+      "value": "15%"
+    },
+    {
+      "type": "string",
+      "label": "تاخير Popup بالثواني",
+      "id": "popup_delay",
+      "format": "text",
+      "value": "5"
+    },
+    {
+      "type": "string",
+      "label": "Meta Pixel ID",
+      "id": "meta_pixel_id",
+      "format": "text",
+      "value": ""
+    },
+    {
+      "type": "string",
+      "label": "Google Tag ID",
+      "id": "google_tag_id",
+      "format": "text",
+      "value": ""
+    },
+    {
+      "type": "string",
+      "label": "Snapchat Pixel ID",
+      "id": "snap_pixel_id",
+      "format": "text",
+      "value": ""
+    },
+    {
+      "type": "string",
+      "label": "TikTok Pixel ID",
+      "id": "tiktok_pixel_id",
+      "format": "text",
+      "value": ""
+    },
+    {
+      "type": "string",
+      "label": "رقم واتساب",
+      "id": "whatsapp_number",
+      "format": "text",
+      "value": ""
+    },
+    {
+      "type": "string",
+      "label": "نبذة عن المتجر",
+      "id": "footer_about",
+      "format": "text",
+      "value": "متجر الكتروني احترافي"
+    },
+    {
+      "type": "string",
+      "id": "placeholder",
+      "format": "hidden",
+      "value": "images/img_placeholder.png"
+    }
+  ],
+  "components": [
+    {
+      "name": "بانرات بنتو",
+      "icon": "sicon-grid",
+      "path": "home.bento-categories",
+      "settings": [
+        {
+          "type": "string",
+          "label": "العنوان",
+          "id": "title",
+          "format": "text",
+          "value": "اكتشف اقسامنا"
+        }
+      ]
+    },
+    {
+      "name": "عداد تنازلي",
+      "icon": "sicon-clock",
+      "path": "home.countdown-timer",
+      "settings": [
+        {
+          "type": "string",
+          "label": "عنوان العداد",
+          "id": "title",
+          "format": "text",
+          "value": "عرض لفترة محدودة"
+        }
+      ]
+    },
+    {
+      "name": "شريط الشحن المجاني",
+      "icon": "sicon-shipping-fast",
+      "path": "home.shipping-progress",
+      "settings": [
+        {
+          "type": "string",
+          "label": "حد الشحن المجاني",
+          "id": "threshold",
+          "format": "text",
+          "value": "200"
+        }
+      ]
+    },
+    {
+      "name": "روابط سريعة",
+      "icon": "sicon-link",
+      "path": "home.quick-links",
+      "settings": [
+        {
+          "type": "string",
+          "label": "العنوان",
+          "id": "title",
+          "format": "text",
+          "value": "جميع الاقسام"
+        }
+      ]
+    },
+    {
+      "name": "احصائيات المتجر",
+      "icon": "sicon-chart-bar",
+      "path": "home.store-stats",
+      "settings": [
+        {
+          "type": "string",
+          "label": "عدد المنتجات",
+          "id": "products_count",
+          "format": "text",
+          "value": "+1000"
+        },
+        {
+          "type": "string",
+          "label": "عدد العملاء",
+          "id": "customers_count",
+          "format": "text",
+          "value": "+5000"
+        },
+        {
+          "type": "string",
+          "label": "عدد الطلبات",
+          "id": "orders_count",
+          "format": "text",
+          "value": "+50000"
+        },
+        {
+          "type": "string",
+          "label": "تقييم المتجر",
+          "id": "rating",
+          "format": "text",
+          "value": "4.9"
+        }
+      ]
+    },
+    {
+      "name": "الاسئلة الشائعة",
+      "icon": "sicon-question-circle",
+      "path": "home.faq-section",
+      "settings": [
+        {
+          "type": "string",
+          "label": "العنوان",
+          "id": "title",
+          "format": "text",
+          "value": "الاسئلة الشائعة"
+        }
+      ]
+    },
+    {
+      "name": "فيديو ترويجي",
+      "icon": "sicon-play-circle",
+      "path": "home.promo-video",
+      "settings": [
+        {
+          "type": "string",
+          "label": "رابط الفيديو",
+          "id": "video_url",
+          "format": "text",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "name": "نشرة بريدية",
+      "icon": "sicon-envelope",
+      "path": "home.newsletter",
+      "settings": [
+        {
+          "type": "string",
+          "label": "العنوان",
+          "id": "title",
+          "format": "text",
+          "value": "اشترك في النشرة البريدية"
+        }
+      ]
+    }
+  ]
+}
